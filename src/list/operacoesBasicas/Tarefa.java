@@ -6,10 +6,6 @@ public class Tarefa {
      */
     String descricao;
 
-    public static void main(String[] args) {
-        System.out.println(("oi"));
-    }
-
     /**
      * Construtor
      * 
@@ -25,6 +21,4 @@ public class Tarefa {
     String getDescricao() {
         return this.descricao;
     }
-
-
 }
