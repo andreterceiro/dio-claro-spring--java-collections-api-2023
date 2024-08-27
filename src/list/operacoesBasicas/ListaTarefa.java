@@ -64,4 +64,15 @@ public class ListaTarefa {
     public void obterDescricoesTarefas() {
         System.out.println(this.tarefaList);
     }
+
+    /**
+     * Method be invoked through terminal and for manual tests
+     * 
+     * @param args[] List of arguments passed through CLI (ignored)
+     */
+    public static void main(String[] args) {
+        ListaTarefa listaTarefa = new ListaTarefa();
+        System.out.println("O número total de tarefas é: " + listaTarefa.obterNumeroTotalTarefas());
+        
+    }
 }
