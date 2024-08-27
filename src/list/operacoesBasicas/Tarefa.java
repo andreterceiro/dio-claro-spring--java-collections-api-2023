@@ -1,8 +1,11 @@
 package list.operacoesBasicas;
 
+/**
+ * Task class
+ */
 public class Tarefa {
     /**
-     * Atributo que armazena a descrição da tarefa
+     * Attribute that stores the description of the task
      */
     String descricao;
 
@@ -16,7 +19,7 @@ public class Tarefa {
     }
 
     /**
-     * Getter de this.descricao
+     * Getter of this.descricao
      */
     String getDescricao() {
         return this.descricao;
